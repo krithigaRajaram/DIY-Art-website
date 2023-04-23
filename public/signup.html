@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SIGNUP</title>
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <img id="signup" src="images/signup.jpg">
+        <nav class="navbar">
+            <ul class="link-group">
+                <li class="link">
+                    <a href="home.html">HOME</a>
+                </li>
+                
+                <li class="link">
+                    <a href="about.html">ABOUT US</a>
+                </li>
+                
+                <li class="link">
+                    <a href="login.html">LOGIN</a>
+                </li>
+                <li class="link active">
+                    <a href="signup.html">SIGNUP</a>
+                </li>
+                <a href="profile.html">
+                    <i class='fa fa-user' id="profile"></i>
+                </a>
+            </ul>
+        </nav>
+    
+        
+            <h1 class="hd">SIGN UP</h1>
+            <form action="/signup" method="post">
+            <table id="mytable">
+                <tr>
+                    <td>USERNAME</td>
+                    <td><input type="text" id="name" name="name" style="padding:10px; width:300px"></td>
+                    
+                    
+                </tr>
+                <br>
+                <tr >
+                    <td>EMAIL ID</td>
+                    <td><input type="email" id="mail" name="mail" style="padding:10px; width:300px"></td>
+                </tr>
+        
+                <tr>
+                    <td>PASSWORD</td>
+                    <td><input type="password" id="password" name="password" minlength="8" style="padding:10px; width:300px"></td>
+                 </tr>
+        
+       
+                 <tr>
+                    <td>CONFIRM PASSWORD</td>
+                    <td><input type="password" id="cpwd" name="cpwd" minlength="8" style="padding:10px; width:300px"></td>
+                 </tr>
+          
+       
+                 <tr >
+                    <td>PHONE NO</td>
+                    <td><input type="text" id="contact" name="contact" style="padding:10px; width:300px"></td>
+    
+                </tr>
+                </table>
+        
+       
+                <input type="submit" value="SIGN UP" name="submit" id="submit">
+        </form>
+        </div>
+   
+     
+    </body>
+    </html>

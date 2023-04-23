@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+body
+{
+    
+    
+    width:100%;
+}
+.navbar{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    background-color:black;
+    
+}
+.link-group{
+    list-style: none;
+    display:flex;
+
+}
+.link a{
+    color:white;
+    opacity:0.5;
+    text-decoration:none;
+    /*text-transform: capitalize;*/
+    padding:10px 30px;
+    margin:0 20px;
+    line-height:80px;
+    transition:.5s;
+    font-size:20px;
+}
+.link a:hover, .link.active a{
+    opacity:1;
+
+}
+#profile
+{
+    font-size:45px;
+    color:white;
+    position:absolute;
+    right:7%;
+    top:25%;
+
+}
+#image
+{
+    width:100%;
+    
+    
+    
+}
+#image1
+{
+    width:100%;
+    
+    
+}
+#topic
+{
+    right:620px;
+    font-size: 20px;
+    color:white;
+    position:absolute;
+    top:350px;
+}
+#explore
+{
+    right:680px;
+    color:black;
+    top:580px;
+    position: absolute;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#con
+{
+    right:500px;
+    color:black;
+    top:580px;
+    position: absolute;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+#column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  #row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+#hd
+  {
+    left:35%;
+    font-size:30px;
+    position:absolute;
+    top:1800px;
+    color:brown;
+    border-color: black;
+    opacity: 1;
+    
+    
+  }
+  #mytable{
+    top:2000px;
+    width:40%;
+    height:20%;
+    position:absolute;
+    left:15%;
+    color:red;
+    font-size: 30px;
+    min-height: 200px;
+}
+
+
+#send
+{
+    right:1000px;
+    color:black;
+    top:2300px;
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    
+   
+}
+#catogory
+  {
+    margin-top: 90px;
+  }
+
+
+
+
+
+  
+
+
